@@ -1,0 +1,10 @@
+.side-comp {
+  padding: 1rem;
+  flex: 0.2;
+  border-right: 1px solid black;
+}
+
+.side-item {
+  padding-bottom: 2rem;
+  margin-left: 5rem;
+}

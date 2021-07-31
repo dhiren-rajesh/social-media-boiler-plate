@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 2.5rem;
+  flex: 1;
+}
+
+.nav-comp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
