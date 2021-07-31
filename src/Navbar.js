@@ -4,21 +4,27 @@ import './Navbar.css'
 export default function Navbar() {
     return (
         <div className="nav">
-            <div>
-                <a href="/" style={{color: 'black' , textDecoration: 'none'}}>
+            <h1>
+                <a href="/" style={{color: 'black', textDecoration: 'none'}}>
                     Boiler-Plate
                 </a>
-            </div>
+            </h1>
             <div className="nav-comp">
-                <div className="nav-item">
-                    About
-                </div>
-                <div className="nav-item">
-                    Contact
-                </div>
-                <div className="nav-item">
-                    Profile
-                </div>
+                <h3 className="nav-item">
+                    <a href="/" style={{color: 'black', textDecoration: 'none'}}>
+                        About
+                    </a>
+                </h3>
+                <h3 className="nav-item">
+                    <a href="/" style={{color: 'black', textDecoration: 'none'}}>
+                        Contact
+                    </a>
+                </h3>
+                <h3 className="nav-item">
+                    <a href="/" style={{color: 'black', textDecoration: 'none'}}>
+                        Profile
+                    </a>
+                </h3>
             </div>
         </div>
     )
